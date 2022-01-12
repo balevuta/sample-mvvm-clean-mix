@@ -46,7 +46,7 @@ coroutines. It simply shows a list of events that is fetched from an open API
 * [DaggerHilt](https://developer.android.com/training/dependency-injection/hilt-android) Hilt is a dependency injection library 
 for Android that reduces the boilerplate of doing manual dependency injection in your project.
 
-### Unit Test (templete only)
+### Unit Test (template only)
 
 * [Mockk](https://mockk.io/) MockK is a library for mocking written in Kotlin.As a native library,
   it helps our teams to write clean and concise code on testing Kotlin applications instead of using
