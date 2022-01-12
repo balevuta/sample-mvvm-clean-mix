@@ -14,7 +14,7 @@ data class EventsApiResponse(
         val date: String? = null,
         val labels: List<String>? = null,
         val name: String? = null,
-        val price: Double? = null,
+        val price: Int? = null,
         val venue: String? = null
     )
 }

@@ -10,7 +10,7 @@ data class EventModel(
     val date: String,
     val labels: List<String>,
     val name: String,
-    val price: Double,
+    val price: Int,
     val venue: String
 ) {
 
@@ -30,7 +30,7 @@ data class EventModel(
                 date = response.date.orEmpty(),
                 labels = response.labels.orEmpty(),
                 name = response.name.orEmpty(),
-                price = response.price.orDefault(0.0),
+                price = response.price.orDefault(0),
                 venue = response.venue.orEmpty()
             )
         }
