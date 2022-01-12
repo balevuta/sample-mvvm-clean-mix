@@ -48,7 +48,7 @@ for Android that reduces the boilerplate of doing manual dependency injection in
 
 ### Unit Test (template only)
 
-* [Mockk](https://mockk.io/) MockK is a library for mocking written in Kotlin.As a native library,
+* [Mockk](https://mockk.io/) MockK is a library for mocking written in Kotlin. As a native library,
   it helps our teams to write clean and concise code on testing Kotlin applications instead of using
   incommodious wrappers of Mockito or PowerMock
 
